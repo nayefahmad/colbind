@@ -11,6 +11,7 @@ test_that("can add column at any position", {
     expect_named(at_pos(1), c("X", "Y", "a", "b", "c"))
     expect_named(at_pos(2), c("a", "X", "Y", "b", "c"))
     expect_named(at_pos(3), c("a", "b", "X", "Y", "c"))
+    expect_named(at_pos(4), c("a", "b", "c", "X", "Y"))
 })
 
 
@@ -28,5 +29,6 @@ test_that("end up with right num cols", {
     expect_equal(n, ncol(at_pos(1)))
     expect_equal(n, ncol(at_pos(2)))
     expect_equal(n, ncol(at_pos(3)))
+    expect_equal(n, ncol(at_pos(4)))
 
 })

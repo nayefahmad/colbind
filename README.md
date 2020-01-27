@@ -31,5 +31,12 @@ insert_into(df1, df2, where = 2)
 
 ## Notes 
 
-* you might want to use `devtools::test_file()` explicitly, because test_file() can conflict with `testthat::test_file()`
+* you might want to use `devtools::test_file()` explicitly, because test_file() can conflict with `testthat::test_file()`. Alternatively, just use the keyboard shortcut `ctrl + shift + T` 
+
+## Questions
+
+* What does it mean to have "one test per invariant"? 
+* How to get `use_coverage()` to work? 
+
+
 
