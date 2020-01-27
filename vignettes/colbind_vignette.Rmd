@@ -1,0 +1,21 @@
+---
+title: "colbind_vignette"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{colbind_vignette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+This is an example vignette. 
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(colbind)
+```
