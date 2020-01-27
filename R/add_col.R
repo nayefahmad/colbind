@@ -1,0 +1,8 @@
+add_col <- function(df1, name, value, where){
+
+    df2 <- data.frame(y = value)
+    names(df2) <- name
+
+    insert_into(df1, df2, where = where)
+
+}

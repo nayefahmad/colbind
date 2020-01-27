@@ -8,6 +8,9 @@ The goal of colbind is to demo unit testing.
 
 This is part of the workshop at rstudio::conf 2020, on 2020-01-27. 
 
+Materials: https://github.com/rstudio-conf-2020/build-tidy-tools 
+
+
 ## Installation
 
 You can install the released version of colbind from GitHub with:
