@@ -32,6 +32,7 @@ insert_into(df1, df2, where = 2)
 ## Notes 
 
 * you might want to use `devtools::test_file()` explicitly, because test_file() can conflict with `testthat::test_file()`. Alternatively, just use the keyboard shortcut `ctrl + shift + T` 
+* I was gonna ask, **"Can we use this testing infrastructure in cases where we're not building packages, like for analytical workflows?"**; but then I realized that's the wrong approach. Why not just build a package with demo data that contains all the functions (and tests) and then source() that in the actual analysis? That will make it easy to reuse those functions for future use cases. 
 
 ## Questions
 
